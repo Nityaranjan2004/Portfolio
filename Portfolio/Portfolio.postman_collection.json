@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "8a32b6e1-9fd2-4e41-b845-a74e30a5996b",
+		"name": "Portfolio API",
+		"description": "Collection of all API endpoints for the Portfolio backend application.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get About Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/about",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"about"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Skills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/skills",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"skills"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Skills By Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/skills/category/Backend",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"skills",
+						"category",
+						"Backend"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/projects",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Experiences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/experiences",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"experiences"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Education Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/education",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"education"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Certificates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/certificates",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"certificates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Contact Message",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"johndoe@example.com\",\n  \"subject\": \"Collaboration Inquiry\",\n  \"message\": \"Hello, I am interested in collaborating on a web project. Please get back to me.\"\n}"
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/contact",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"contact"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "http://localhost:8091",
+			"type": "string"
+		}
+	]
+}
