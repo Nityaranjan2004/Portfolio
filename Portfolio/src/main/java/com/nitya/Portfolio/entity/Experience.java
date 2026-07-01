@@ -32,8 +32,6 @@ public class Experience {
     @Column(name = "start_date")
     private LocalDate startDate;
 
-    @Column(name = "end_date")
-    private LocalDate endDate;
 
     @Column(name = "currently_working")
     private Boolean currentlyWorking;

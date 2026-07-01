@@ -19,7 +19,6 @@ public class ExperienceResponse {
     private String employmentType;
     private String location;
     private LocalDate startDate;
-    private LocalDate endDate;
     private Boolean currentlyWorking;
     private String description;
 }

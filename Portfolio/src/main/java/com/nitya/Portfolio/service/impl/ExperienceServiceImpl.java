@@ -32,7 +32,6 @@ public class ExperienceServiceImpl implements ExperienceService {
                 .employmentType(experience.getEmploymentType())
                 .location(experience.getLocation())
                 .startDate(experience.getStartDate())
-                .endDate(experience.getEndDate())
                 .currentlyWorking(experience.getCurrentlyWorking())
                 .description(experience.getDescription())
                 .build();
