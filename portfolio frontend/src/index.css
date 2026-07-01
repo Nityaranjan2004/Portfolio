@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+/* Import all component styles */
+@import './styles/global.css';
+@import './styles/Header.css';
+@import './styles/About.css';
+@import './styles/Skills.css';
+@import './styles/Projects.css';
+@import './styles/Experience.css';
+@import './styles/Education.css';
+@import './styles/Certificates.css';
+@import './styles/Contact.css';
+@import './styles/Footer.css';
+
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

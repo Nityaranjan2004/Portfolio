@@ -30,7 +30,7 @@ public class EducationServiceImpl implements EducationService {
                 .institution(education.getInstitution())
                 .degree(education.getDegree())
                 .fieldOfStudy(education.getFieldOfStudy())
-                .cgpa(education.getCgpa())
+                .cgpa_or_percent(education.getCgpa_or_percent())
                 .startYear(education.getStartYear())
                 .endYear(education.getEndYear())
                 .build();

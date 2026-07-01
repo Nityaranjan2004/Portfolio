@@ -13,7 +13,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/certificates")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class CertificateController {
 
     private final CertificateService certificateService;

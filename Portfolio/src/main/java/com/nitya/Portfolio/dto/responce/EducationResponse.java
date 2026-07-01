@@ -12,7 +12,7 @@ public class EducationResponse {
     private String institution;
     private String degree;
     private String fieldOfStudy;
-    private Double cgpa;
+    private Double cgpa_or_percent;
     private Integer startYear;
     private Integer endYear;
 }

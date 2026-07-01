@@ -25,7 +25,7 @@ public class Education {
     @Column(name = "field_of_study")
     private String fieldOfStudy;
 
-    private Double cgpa;
+    private Double cgpa_or_percent;
 
     @Column(name = "start_year")
     private Integer startYear;

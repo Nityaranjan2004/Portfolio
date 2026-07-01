@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/about")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class AboutController {
 
     private final AboutService aboutService;
